@@ -4,17 +4,45 @@
 }
 
 .dHImg {
-
+    background-image: url(../images/DelveHomes.jpeg);
 }
 
 .pImg {
-
+    background-image: url(../images/Phishing.jpeg);
 }
 
 .cImg {
-
+    background-image: url(../images/CourseraCertificate.jpeg);
 }
 
 .tMImg {
+    background-image: url(../images/TariffMonopoly.jpeg);
+}
+
+.image {
+    width: 100%;
+    height: 45%;
     
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.tMImg,
+.cImg,
+.pImg,
+.dHImg {
+    width: 100%;
+    height: 100%;
+}
+
+.half {
+    width: 50%;
 }
