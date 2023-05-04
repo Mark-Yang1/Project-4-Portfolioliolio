@@ -3,27 +3,6 @@
     padding: 0;
 }
 
-.dHImg {
-    background-image: url(../images/DelveHomes.jpeg);
-}
-
-.pImg {
-    background-image: url(../images/Phishing.jpeg);
-}
-
-.cImg {
-    background-image: url(../images/CourseraCertificate.jpeg);
-}
-
-.tMImg {
-    background-image: url(../images/TariffMonopoly.jpeg);
-}
-
-.image {
-    width: 100%;
-    height: 45%;   
-}
-
 .row {
     display: flex;
     flex-direction: row;
@@ -42,60 +21,127 @@
     height: 100%;
 }
 
-.half {
+.fullH {
+    height: 100%
+}
+
+.fullW {
+    width:100%
+}
+
+.halfH {
+    height: 50%;
+}
+
+.halfW {
     width: 50%;
 }
 
-.cOntainer > div {
+.imgCarousel {
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.cOntainer {
+    width: 42.5%;
+    height: 60vh;
+}
+
+
+#cIndex {
     width: 100%;
     height: 100%;
     background-size: cover;
 }
 
-.delveHomesimg1 {
-    background-image: url(../images/DelveHomes1.jpeg)
+.projectContainer {
+    width: 100%;
+    height: 80vh;
 }
 
-.delveHomesimg2 {
-    background-image: url(../images/DelveHomes2.jpeg)
+/* @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} */
+
+.dButton, .iButton {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: solid 5px black;
 }
 
-.delveHomesimg3 {
-    background-image: url(../images/DelveHomes3.jpeg)
+.delveHomesImg1 {
+    background-image: url(../images/DelveHomes1.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
+}
+
+.delveHomesImg2 {
+    background-image: url(../images/DelveHomes2.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
+}
+
+.delveHomesImg3 {
+    background-image: url(../images/DelveHomes3.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
 .tariffMonopoly1 {
-    background-image: url(../images/TariffMonopoly1.jpeg)
+    background-image: url(../images/TariffMonopoly1.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
 .tariffMonopoly2 {
-    background-image: url(../images/TariffMonopoly2.jpeg)
+    background-image: url(../images/TariffMonopoly2.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
 .tariffMonopoly3 {
-    background-image: url(../images/TariffMonopoly3.jpeg)
+    background-image: url(../images/TariffMonopoly3.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
 .phishingImg1 {
-    background-image: url(../images/Phishing1.jpeg)
+    background-image: url(../images/Phishing1.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
 .phishingImg2 {
-    background-image: url(../images/Phishing2.jpeg)
+    background-image: url(../images/Phishing2.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
 .phishingImg3 {
-    background-image: url(../images/Phishing3.jpeg)
+    background-image: url(../images/Phishing3.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
-.courseraimg1 {
-    background-image: url(../images/Coursera1.jpeg)
+.courseraImg1 {
+    background-image: url(../images/Coursera1.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
-.courseraimg2 {
-    background-image: url(../images/Coursera2.jpeg)
+.courseraImg2 {
+    background-image: url(../images/Coursera2.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
 
-.courseraimg3 {
-    background-image: url(../images/Coursera3.jpeg)
+.courseraImg3 {
+    background-image: url(../images/Coursera3.jpeg);
+    /* animation-name: fade;
+    animation-duration: 1s; */
 }
