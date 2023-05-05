@@ -21,20 +21,42 @@
     height: 100%;
 }
 
-.fullH {
-    height: 100%
+.haf {
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.fullW {
-    width:100%
+img {
+    height: 100%;
+    width: 100%;
 }
 
-.halfH {
+.imgContainer, 
+.txtContainer {
     height: 50%;
+    width: 100%;
 }
 
-.halfW {
+.imgContainer {
+
+}
+
+.txtContainer {
+
+}
+
+.quadrant {
     width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrant > h3 {
+    text-align: center;
 }
 
 .imgCarousel {
@@ -46,7 +68,7 @@
 }
 
 .cOntainer {
-    width: 42.5%;
+    width: 60%;
     height: 60vh;
 }
 
@@ -67,7 +89,8 @@
     to {opacity: 1}
 } */
 
-.dButton, .iButton {
+.dButton, 
+.iButton {
     width: 25px;
     height: 25px;
     background-color: white;
