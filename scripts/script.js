@@ -23,3 +23,13 @@ function cCycle(x) {
     document.getElementById('cIndex').classList.add(a + x)
     console.log(document.getElementById('cIndex').className);
 }
+
+// SPLIT: NAVIGATION STUFF
+
+function openNav() {
+    document.getElementById('nav').style.height = "100%";
+}
+  
+function closeNav() {
+    document.getElementById('nav').style.height = "0%";
+}
