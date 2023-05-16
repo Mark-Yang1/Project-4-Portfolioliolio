@@ -378,3 +378,87 @@ h4 {
 b {
     color: black;
 }
+
+.aboutHeader {
+    font-size: 50px;
+}
+
+.aboutList > li {
+    font-size: 36px;
+}
+
+.aboutList {
+    margin-left: 10%;
+}
+
+.aboutSection1,
+.aboutSection2,
+.aboutSection3 {
+    background-color: rgb(4, 38, 50);
+    width: 20vw;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 10vw;
+    /* margin-top: 5%; */
+    cursor: pointer;
+    color: white;
+    border: solid black 3px;
+}
+
+.aboutSection4,
+.aboutSection5,
+.aboutSection6 {
+    background-color: rgb(38, 103, 146);
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 36px;
+    width: 50vw;
+    border: solid black 3px;   
+}
+
+.aboutSection1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aboutSection1 {
+    position: absolute;
+    left: 0;
+}
+
+.aboutSection1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.aboutSection1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.aboutSection1 {
+    position: absolute;
+    right: 0;
+}
+
+.aboutSection1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.aboutContent {
+    position: relative;
+    width: 90vh;
+    height: 90vh;
+}
+
+.sectionMain {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
