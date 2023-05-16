@@ -15,7 +15,7 @@
 }
 
 footer {
-    /* align-items: flex-end; */
+    background-color: black;
 }
 
 body {
@@ -32,12 +32,24 @@ body {
     height: 100%;
 }
 
+h2 {
+    text-align: center;
+    font-size: 68px;
+    margin: 3%;
+}
+
 .heroSection {
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.heroSection > p {
+    background-color: black;
+    padding: 2%;
+    border-radius: 50px;
 }
 
 .heroSection > p {
@@ -86,13 +98,20 @@ img {
     visibility: visible;
     overflow-y: auto;
     font-size: 18px;
+    height: 45%;
 }
 
 .quadrant {
     width: 30%;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(9, 32, 53);
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    border: solid black 5px;
 }
 
 .quadrant > h3 {
@@ -110,6 +129,7 @@ img {
 .cOntainer {
     width: 60%;
     height: 60vh;
+    /* border-radius: 10px; */
 }
 
 
@@ -117,6 +137,7 @@ img {
     width: 100%;
     height: 100%;
     background-size: cover;
+    border-radius: 20px;
 }
 
 .projectContainer {
@@ -140,6 +161,7 @@ img {
     font-size: 4.3vh;
     text-align: center;
     user-select: none;
+    color: black;
 }
 
 .me {
@@ -149,6 +171,24 @@ img {
     background-size: cover;
     border: solid 15px black;
     box-shadow: 5px 10px 40px 20px rgb(82, 82, 82);
+}
+
+.projectText {
+    display: flex;
+    font-size: 28px;
+    width: 99.75%;
+    background-color: rgb(40, 39, 39);
+    border-radius: 60px;
+    border: solid black 3px;
+    height: 25vh;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+
+.projectText > p {
+    width: 50%;
+    padding: 2%;
+    overflow-y: auto;
 }
 
 .delveHomesImg1 {
@@ -221,6 +261,16 @@ img {
     background-image: url(../images/Coursera3.jpeg);
     /* animation-name: fade;
     animation-duration: 1s; */
+}
+
+.pushinP {
+    width: 50%;
+    background-color: rgb(18, 33, 47);
+    margin-left: 25%;
+    margin-top: 10vh;
+    font-size: 64px;
+    text-align: center;
+    border-radius: 30px;
 }
 
 /* SPLIT: NAVIGATION STUFF */
@@ -318,86 +368,3 @@ h4 {
 
 /* SPLIT: ABOUT PAGE */
 
-.aboutHeader {
-    font-size: 50px;
-}
-
-.aboutList > li {
-    font-size: 36px;
-}
-
-.aboutList {
-    margin-left: 10%;
-}
-
-.aboutSection1,
-.aboutSection2,
-.aboutSection3 {
-    background-color: rgb(4, 38, 50);
-    width: 20vw;
-    border-radius: 20px;
-    padding: 5px;
-    margin-left: 10vw;
-    /* margin-top: 5%; */
-    cursor: pointer;
-    color: white;
-    border: solid black 3px;
-}
-
-.aboutSection4,
-.aboutSection5,
-.aboutSection6 {
-    background-color: rgb(38, 103, 146);
-    padding: 1%;
-    border-radius: 20px;
-    font-size: 36px;
-    width: 50vw;
-    border: solid black 3px;   
-}
-
-.aboutSection1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.aboutSection1 {
-    position: absolute;
-    left: 0;
-}
-
-.aboutSection1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.aboutSection1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.aboutSection1 {
-    position: absolute;
-    right: 0;
-}
-
-.aboutSection1 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.aboutContent {
-    position: relative;
-    width: 90vh;
-    height: 90vh;
-}
-
-.sectionMain {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-}
