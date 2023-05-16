@@ -76,6 +76,7 @@ img {
 .txtContainer {
     visibility: visible;
     overflow-y: auto;
+    font-size: 18px;
 }
 
 .quadrant {
@@ -289,7 +290,7 @@ h4 {
 }
 
 ul {
-    ;
+    
 }
 
 /* SPLIT: mobile compatability */
