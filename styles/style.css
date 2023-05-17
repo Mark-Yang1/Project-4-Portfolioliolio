@@ -185,6 +185,7 @@ img {
     text-align: center;
     user-select: none;
     color: black;
+    margin: 1%;
 }
 
 .me {
@@ -295,6 +296,7 @@ img {
     font-size: 64px;
     text-align: center;
     border-radius: 30px;
+    padding: 2.5%;
 }
 
 /* SPLIT: NAVIGATION STUFF */
@@ -446,21 +448,101 @@ h4, h5, .resumeList {
 .aboutContent {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: 150vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .aboutRow {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     font-size: 28px;
+    height: fit-content;
+    width: 100%;
 }
 
-.aboutLeft {
+.aboutLeft1,
+.aboutLeft2,
+.aboutLeft3 {
     background-color: rgb(11, 15, 66);
+    border: solid gray 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    height: fit-content;
+    width: 35%;
+    padding: 15px;
+    margin: 1.5%;
+    font-size: 38px;
+}
+
+.aboutLeft1 > p,
+.aboutLeft2 > p,
+.aboutLeft3 > p {
+    font-size: 54px;
 }
 
 .aboutRight1,
 .aboutRight2, 
 .aboutRight3 {
-    background-color: rgb(17, 102, 120);
+    background-color: rgb(14, 110, 129);
+    /* border: solid gray 7.5px; */
+    padding: 7.5px;
+    /* border-radius: 30px; */
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    transition: 0.75s;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.rightText {
+
+}
+
+/* .rightImg1 {
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+} */
+
+/* .rightImg2 {
+    width: 75%;
+} */
+
+.aboutList {
+    margin-left: 30px;
+}
+
+.aboutImg1 {
+    background-image: url(../images/Photo.jpg);
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    border: solid black 3px;
+    padding: 3px;
+}
+
+.aboutImg2 {
+    background-image: url(../images/Newspaper.jpg);
+    width: 35%;
+    height: 50%;
+    background-size: cover;
+    border: solid black 3px;
+    padding: 3px;
+}
+
+/* SPLIT: CONTACT STUFF? */
+
+.contactImg {
+    height:100px ;
+    width: 100px;
 }
