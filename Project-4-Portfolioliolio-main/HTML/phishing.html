@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Yang</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+ <body>
+    <header>
+        <span class="openButton" onclick="openNav()">☰ Open</span>
+        <div class="navOverlay" id="nav">
+            <a class="closeButton" onclick="closeNav()">X Close</a>
+            <div class="navContent">
+                <a href="../index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="resume.html">Resume</a>
+                <a href="delvehomes.html">DelveHomes</a>
+                <a href="phishing.html">Phishing Awareness</a>
+                <a href="coursera.html">Coursera</a>
+                <a href="tariff.html">Tariff Monopoly</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="imgCarousel row">
+            <a onclick="cDecrease()" class="dButton"><b>&lt;</b></a>
+            <div class="cOntainer">
+                <div class="phishingImg1" id="cIndex"></div>
+            </div>
+            <a onclick="cIncrease()" class="iButton"><b>&gt;</b></a>
+        </section>
+
+        <section class="projectText">
+            <p>Before actually coding the project, I had to do research over several other phishing awareness websites to try and find the most normal design and layout for the website. I looked at three sites in particular. One was by <a href="https://uit.stanford.edu/service/phishingawareness">Stanford University</a>, another was by the <a href="https://ung.edu/information-technology/information-security/phishing-awareness.php">University of North Georgia</a>, and the last one was by the <a href="https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks">Cyber Security & Infrastructure Security Agency</a> (CISA). With those websites as an idea for design, I created a wireframe (a structural layout of the website) for my peers to use when they would code my website. I had to then do my long and extensive research about phishing to properly create informative writing about phishing scams, so I could add written content into my website. After all of this, we were finally readt to start coding.</p>
+            <p>On this project, my peers coded the website while I supervised and guided them to create my website. Just like in my previous project, we would first start by creating a Figma layout for the pages, and then write the written parts of the website. Then, everyday from then I would work with new people and have them try to pick up where the last person had left off. Not only that, but everybody had varying levels of skill in either HTML or CSS, which complicated the coding process even more. To combat this, I encouraged my peers to work with what they were most comfortable with, to prevent them from making below-average quality work. I also worked on other peoples’ various websites, and was guided into creating elements and stylizing them to fit the vision of my supervisor.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footerContent">
+            <p>contact</p>
+            <ul class="">
+                <li>G-Mail: <a href="mailto:mark.yang@cart.student.org">mark.yang@cart.student.org</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/mark-yang-bb9610275/">www.linkedin.com/in/mark-yang-bb9610275/</a></li>
+                <li>Phone Number: <a>559-720-5823</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="../scripts/script.js"></script>
+</body>

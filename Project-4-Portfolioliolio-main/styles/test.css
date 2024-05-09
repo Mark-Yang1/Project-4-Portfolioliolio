@@ -1,0 +1,58 @@
+.navButton {
+  z-index: 1;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.navOverlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navContent > a {
+  text-decoration: none;
+  font-size: 56px;
+  color: white;
+  display: block;
+  width: fit-content;
+  padding: 10px
+}
+
+.navContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: absolute; */
+}
+
+.closeButton {
+  position: absolute;
+  font-size: 36px;
+  color: white;
+  top: 1.75%;
+  left: 1.25%;
+  cursor: pointer;
+  position: absolute;
+}
+
+main {
+  z-index: 0;
+}
+
+.txt {
+  font-size: 100px;
+  height: 100vh;
+}
